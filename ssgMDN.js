@@ -13,11 +13,11 @@ function randomValueFromArray(array){
 // 2. RAW TEXT STRINGS
 const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
 
-const insertx = ["Michael Jackson", "Betty White", "Father Christmas"];
+const insertx = ["Michael Jackson", "Betty White", "McLovin"];
 
-const inserty = ["the soup kitchen","Wakanda","the void"];
+const inserty = ["Detroit","Wakanda","the void"];
 
-const insertz = ["spontaneously combusted", "melted into a puddle on the sidewalk" ,"turned into a slug and crawled away"];
+const insertz = ["spontaneously combusted", "ate at Arby's" ,"got sad and shimmied away"];
 
 
 
