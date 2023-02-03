@@ -1,6 +1,6 @@
 // 1. COMPLETE VARIABLE AND FUNCTION DEFINITIONS
 
- const customName = document.getElementById('customname');
+const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
@@ -15,7 +15,7 @@ const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. W
 
 const insertx = ["Michael Jackson", "Betty White", "McLovin"];
 
-const inserty = ["Detroit","Wakanda","the void"];
+const inserty = ["Detroit","Wakanda","the bathroom"];
 
 const insertz = ["spontaneously combusted", "ate at Arby's" ,"got sad and shimmied away"];
 
@@ -37,7 +37,7 @@ function result() {
     
   if(customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replaceAll("insertx", name)
+    newStory = newStory.replaceAll("insertx", name)  //used replace at first, realised it was wrong
 
   }
   else{
